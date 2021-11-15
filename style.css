@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+}
+
+
+h1{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+
+
+#app{
+    width: 100%;
+    height: 800px;
+    background: aliceblue;
+}
+
+
+
+#Mycarousel{
+    background: aliceblue;
+}
+
+
+#Mycarousel img{
+    transition: transform .2s;
+    margin-top: 35px;
+}
+
+
+.carousel-inner p{
+    margin-top: 15px;
+    color: black;
+    font-size: 20px;
+}
+
+
+img:hover{
+    transform: scale(0.9);
+}
+
+
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
